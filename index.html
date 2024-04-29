@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto+Slab:wght@200;300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  </head>
+  <body>
+    <div class="cr cr-top cr-right cr-red">BETA</div>
+    <div id="nav">
+      <div id="logo">
+        <img src="img/logo.png" />
+      </div>
+    </div>
+    <div id="container">
+      <div id="ingredientsChecker">
+        <h2>Ingredients Check</h2>
+        <form id="ingredientsCheck">
+          <fieldset>
+            <div class="description">
+              Enter the ingredients you would like to analyze
+            </div>
+            <textarea id="textarea"></textarea>
+            <button>Check</button>
+          </fieldset>
+        </form>
+
+        <div id="results">
+          <div id="results_summary">
+            
+          </div>
+          <div class="description"></div>
+          <div class="list">
+            <div id="passedList" class="passed">
+              <div class="title">Passed</div>
+              <div id="passed"></div>
+            </div>
+
+            <div id="failedList" class="failed">
+              <div class="title">Failed</div>
+              <div id="failed"></div>
+            </div>
+          </div>
+        </div>
+        <div id="resultsShare">
+            <h4>Share your result</h4>
+            <input type="text" value="http://app.test.com/share=eeqweqeqwdwqedqweqwe" id="shareInput" /> <i class="fa-solid fa-copy" id="clipBoard" style="margin-left: 16px; color: white; font-size: 200%; position: relative; top: 6px;"></i>
+        </div>
+      </div>
+
+      <div style="flex: 0 0 10%;"></div>
+
+      <div id="homeSidebar">
+        <h2>What does this tool do?</h2>
+        <p>
+          This tool checks for potential artificial or processed ingredients,
+          and can be used to help aid following a paleo, whole30, or clean-eating lifestyle.
+        </p>
+        <p>While this tool is intended for paleo, it can also be used with the mediterranean diet, as long as you are aware that some of your acceptable foods may be flagged (for example oats, legumes, pasta, bread).</p>
+        <p>
+          Please note that due to the way manufacturers label food, in some
+          cases some ingredients may not always be detected.
+        </p>
+        <p>
+          <b
+            >This tool should not be used alone, but rather to supplement other
+            checks.</b
+          >
+        </p>
+
+        <h2>How do I use this tool?</h2>
+        <p>
+          To analyze an item, you can copy &amp; paste the ingredients list into the form provided.
+       </p>
+       <p>
+          Searching by photograph & selecting between paleo/mediterranean is planned for a later date.
+       </p>
+        <p>Developed by <a href="https://rickyhewitt.me">Ricky Hewitt</a></p>
+        </p>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
