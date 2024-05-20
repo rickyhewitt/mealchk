@@ -1,5 +1,5 @@
 /* 
-  List of prohibited items is intentionally stored as a javascript object for now.
+  List of prohibited items is intentionally stored as a javascript array for now.
 
   Ideally I'd use JSON, or better, SQLite... 
 
