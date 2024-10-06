@@ -16,10 +16,10 @@ https://mealchk.app.rickyhewitt.me/
 # Screenshots
 
 ### 1. Junk food
-![Example - Fail](https://imgur.com/Ma55zvD.png "Example - Fail")
+<img src="https://imgur.com/Ma55zvD.png" width="720" alt="Example - Fail"/>
 
 ### 2. Healthy (compliant) food
-![Example - Pass](https://imgur.com/za9BDOn.png "Example - Pass")
+<img src="https://imgur.com/za9BDOn.png" width="720" alt="Example - Pass"/>
 
 # Sharing results
 MealChk includes the ability to share your results, even without installation.
